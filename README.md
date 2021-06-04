@@ -1,3 +1,9 @@
+## Golfer Modification
+### How to build
+```
+Please refer to https://docs.opencv.org/master/d5/da3/tutorial_ios_install.html
+```
+
 ## OpenCV: Open Source Computer Vision Library
 
 ### Resources
