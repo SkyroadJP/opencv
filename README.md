@@ -18,6 +18,10 @@ pod repo push skyroad gf-opencv.podspec --use-libraries --allow-warnings --skip-
 
 ```
 
+### pod install notes
+因为opencv里面有swift模块，通过pod安装时，Xcode不能有效开启swift编译全家桶。
+因此需要在 宿主项目中，手动添加一个 dummy.swift，用于开启全家桶
+
 
 ## OpenCV: Open Source Computer Vision Library
 
