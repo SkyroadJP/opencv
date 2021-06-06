@@ -4,7 +4,7 @@
 Please refer to https://docs.opencv.org/master/d5/da3/tutorial_ios_install.html
 
 ```
-python opencv/platforms/ios/build_framework.py ios --contrib opencv_contrib --iphoneos_archs arm64 --iphonesimulator_archs x86_64 arm64
+python opencv/platforms/ios/build_framework.py ios --contrib opencv_contrib --iphoneos_archs arm64 --iphonesimulator_archs x86_64
 ```
 
 ### How to deploy
