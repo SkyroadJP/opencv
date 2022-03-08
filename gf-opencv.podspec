@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "gf-opencv"
-  spec.version      = "4.5.2.2"
+  spec.version      = "4.5.2.3"
   spec.summary      = "OpenCV Customized build"
 
   # This description is used to generate tags and improve search results.
@@ -140,6 +140,7 @@ Pod::Spec.new do |spec|
   # Adding tests with a swift dependency is a workaround in order to make pod lib lint work
   # See: https://github.com/CocoaPods/CocoaPods/issues/8649
   spec.test_spec 'Tests' do |spec|
+    spec.source_files = 'iostests/*.{h,m}'
     spec.dependency 'Result', '~> 5.0'
   end  
 

@@ -46,7 +46,7 @@ xcodebuild -create-xcframework -framework ios/opencv2.framework -framework simul
     - modify the podspec file with tag name
 
 ```
-pod repo push skyroad gf-opencv.podspec --use-libraries --allow-warnings --skip-tests --sources=https://github.com/SkyroadJP/Cocoapods-Specs.git,https://github.com/CocoaPods/Specs.git
+pod repo push skyroadjp gf-opencv.podspec --use-libraries --allow-warnings --skip-tests --sources=https://github.com/SkyroadJP/Cocoapods-Specs.git,https://github.com/CocoaPods/Specs.git
 
 ```
 
