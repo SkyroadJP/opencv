@@ -548,7 +548,7 @@ if __name__ == "__main__":
         iphonesimulator_archs = args.iphonesimulator_archs.split(',')
     elif not args.build_only_specified_archs:
         # Supply defaults
-        iphonesimulator_archs = ["i386", "x86_64"]
+        iphonesimulator_archs = ["i386", "x86_64", "arm64"]
     print('Using iPhoneSimulator ARCHS=' + str(iphonesimulator_archs))
 
     # Prevent the build from happening if the same architecture is specified for multiple platforms.
