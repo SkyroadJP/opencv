@@ -1,3 +1,6 @@
+4.6.0 + Xcode 14 + CMake 3.22.2 无法编译，大概率是 CMake 的问题，
+找不到 Compiler ，以后有时间再处理
+
 ## Golfer Modification
 ### How to build
 
